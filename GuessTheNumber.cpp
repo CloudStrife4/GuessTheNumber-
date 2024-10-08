@@ -12,7 +12,7 @@ public:
 	int objective = (rand() % 100)+1;
 	Game()
 	{
-		cout <<"Welcome To Guess The Number (1-50)"<<endl<<endl<< "Enter Difficulty: " << endl << "1 = Easy(5 tries)" << endl << "2 = Medium(3 tries)" << endl << "3 = Hard(1 try)" << endl;
+		cout <<"Welcome To Guess The Number (1-100)"<<endl<<endl<< "Enter Difficulty: " << endl << "1 = Easy(5 tries)" << endl << "2 = Medium(3 tries)" << endl << "3 = Hard(1 try)" << endl;
 		cin >> Level;
 		if (Level == 1)
 		{
