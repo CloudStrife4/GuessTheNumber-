@@ -99,7 +99,7 @@ int main()
 	Game play;
 	if (play.attempt == 0)
 	{
-		cout << "U fucking NIGGER" << endl;
+		cout << "Game Over" << endl;
 	}
 	cout << "The Right Answer Was " << play.objective << endl;
 
